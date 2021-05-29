@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title> بینایی سنجی </title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h3> تست بینایی سنجی </h3>
+            <p> روی مربع با رنگ متفاوت کلیک کنید </p>
+            <div class="helperContainer">
+                <div class="timerContainer"><span id="timer"> 15 </span></div>
+                <span id="help"> کمک </span>
+            </div>
+        </div>
+    
+        <div class="gridContainer">
+            <div class="gridRow">
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+            </div>
+            <div class="gridRow">
+                <div class="gridCell"></div>
+                <div class="gridCell"></div>
+            </div>
+        </div>
+    
+        <div class="info-box info"> <span> امتیاز: </span><span id="score"> 0 </span></div>
+        <div class="info-box danger"> <span> خطا : </span><span id="mistake"> 0 </span></div>
+    
+    
+        <div class="overlayResult" id="overlayResult">
+            <div class="result-container">
+                <h4> نتایج نهایی :</h4>
+                <div class="scoreParent">
+                    <span> امتیاز شما : </span>
+                    <span id="score-result"></span>
+                </div>
+                <div class="scoreParent">
+                    <span> تعداد خطاها: </span>
+                    <span id="mistake-result"></span>
+                </div>
+                <div class="result-cart">
+                    <div class="image">
+                        <img src="img/image-5.jpg" alt="your-rate" id="result-image">
+                    </div>
+                    <h4 id="result-name">  </h4>
+                    <p id="result-info"> </p>
+                    <div class="buttons">
+                        <button id="newGame" class="btn success"> بازی جدید </button>
+                        <button id="share" class="btn info"> اشتراک نتیجه </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script/level.js"></script>
+    <script src="script/script.js"></script>
+    
+</body>
+</html>
