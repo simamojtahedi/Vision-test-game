@@ -1,10 +1,22 @@
-# javascript-game
+# Vision test Game
 
-A game made by pure javascript, html, css.
+This is a simple game created using pure JavaScript. \
+The objective of the game is to find the square with a different color within a given time limit. \
+The game becomes harder as you progress through the levels, and your time limit increases as you make correct choices.
 
 ![js-game](https://user-images.githubusercontent.com/64223524/165794746-36c25719-d178-49d5-bbb7-b5799737fa7a.png)
 
-When you hit start you'll have 15 seconds to find the square with different color, and as much as you go further it'll get harder to find the different one and your time will increase with your right choices.
-<br />
+## Installation
 
-It also has a help button and if you hit it, it'll be easier to recognize the different square but you'll lose 5 seconds of your time.
+To run the game, simply clone this repository to your local machine and open the ```index.html``` file in your web browser.
+
+## How to Play
+
+1. Click on the 'Start' button to begin the game.
+2. You will have 15 seconds to find the square with a different color.
+3. As you progress through the levels, it will become harder to find the different square.
+4. Your time limit will increase with each correct choice you make.
+5. If you need help, click on the 'Help' button. This will make it easier to recognize the different square, but you will lose 5 seconds of your time.
+
+## Author
+- [@simamojtahedi](https://github.com/simamojtahedi)
